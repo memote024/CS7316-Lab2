@@ -16,11 +16,11 @@ class LandingViewController: UIViewController {
 
     // So button presses can be handled
     @IBAction func goToModuleA(_ sender: UIButton) {
-        performSegue(withIdentifier: "goToModuleA", sender: self)
+        performSegue(withIdentifier: "Module A", sender: self)
     }
 
     @IBAction func goToModuleB(_ sender: UIButton) {
-        performSegue(withIdentifier: "goToModuleB", sender: self)
+        performSegue(withIdentifier: "Module B", sender: self)
     }
 }
 
